@@ -1,16 +1,4 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Manrope } from "next/font/google";
-import "./globals.css";
-
-const headingFont = Space_Grotesk({
-  subsets: ["latin"],
-  variable: "--font-heading",
-});
-
-const bodyFont = Manrope({
-  subsets: ["latin"],
-  variable: "--font-body",
-});
 
 export const metadata: Metadata = {
   title: "AcademiQuest",
@@ -24,7 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${headingFont.variable} ${bodyFont.variable}`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
