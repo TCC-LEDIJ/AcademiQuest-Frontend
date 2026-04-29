@@ -45,7 +45,7 @@ export function LandingPage() {
 
 {/* Larissa's collage edit */}
 <div className="relative flex-1">
-  <Image src="/images/rats.png" alt="artwork" fill className="object-contain" />
+  <Image src="/images/rats.webp" alt="artwork" fill className="object-contain" />
 </div>
 
         {/* Features Section */}
